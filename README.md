@@ -3,6 +3,9 @@ CoverImageView
 
 Gradle
 ------
+CoverImageView that can customize or dynamically change the image overlay color
+
+![sreenshort](https://raw.githubusercontent.com/lowly360/CoverImageView/master/screenshot.gif )
 
 Usage
 -----
@@ -13,6 +16,11 @@ Usage
             android:padding="10dp"
             android:src="@drawable/tag_ep_a"
             app:cover_color="#ff00ff" />
+```
+
+```
+	CoverImageView coverImageView = findViewById(R.id.cimg_test);
+    coverImageView.setCoverColor(Color.RED);
 ```
 
 FAQ
