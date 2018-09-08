@@ -1,11 +1,22 @@
 CoverImageView
 ===============
+[![](https://img.shields.io/badge/CoverImageView-v1.0.0-brightgreen.svg)](https://github.com/lowly360/CoverImageView)
+[![API](https://img.shields.io/badge/API-3%2B-green.svg?style=flat)](https://android-arsenal.com/api?level=3)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+
+**CoverImageView** that can customize or dynamically change the image overlay color
+
+![sreenshort](https://raw.githubusercontent.com/lowly360/CoverImageView/master/screenshot.gif )
 
 Gradle
 ------
-CoverImageView that can customize or dynamically change the image overlay color
-
-![sreenshort](https://raw.githubusercontent.com/lowly360/CoverImageView/master/screenshot.gif )
+```
+dependencies {
+    ...
+    implementation 'cn.itlowly.view:CoverImageview:1.0.0'
+}
+```
 
 Usage
 -----
@@ -19,7 +30,7 @@ Usage
 ```
 
 ```
-	CoverImageView coverImageView = findViewById(R.id.cimg_test);
+CoverImageView coverImageView = findViewById(R.id.cimg_test);
     coverImageView.setCoverColor(Color.RED);
 ```
 
